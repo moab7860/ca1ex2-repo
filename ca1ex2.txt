@@ -1,0 +1,12 @@
+>git add cloud.py
+>git commit -m "first CA commit"
+>git branch feature-local-test
+git checkout
+
+>git switch main
+git commit -m "3rd commit ca"
+git remote add origin https://github.com/moab7860/ca1ex2-repo.git
+git push -u origin main
+git pull
+
+>Get-History | ? CommandLine -match "git" | % CommandLine > ca1ex2.txt
